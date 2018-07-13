@@ -1,3 +1,3 @@
-# endouble
+# Endouble
 
-Front-End react application 
+Front-End React App
