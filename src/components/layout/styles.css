@@ -1,10 +1,19 @@
-.body-header {
+.top-nav {
     margin: 0 0 0 0;
     padding: 0;
     background:black;
     size: 20px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
 
 
@@ -45,6 +54,10 @@ nav li {
     padding-top: 25px;
     position: relative;
 }
+
+/* .one li:nth-child(1) {
+    font-size: 20px;
+} */
 
 nav a {
     color: white;

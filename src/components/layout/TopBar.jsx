@@ -7,8 +7,12 @@ const TopBar = () => {
     return (
 
         <div class="container">
-            <nav className="body-header">
+            <title> LOGO </title> 
+            <nav className="top-nav">
                 <ul>
+                    <li>
+                        <a href="#">LOGO</a>
+                    </li>
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -24,6 +28,7 @@ const TopBar = () => {
                     <li>
                         <a href="#">Contact</a>
                     </li>
+                    <input type="text" placeholder="Search.."></input>
                 </ul>
             </nav>
         </div>
