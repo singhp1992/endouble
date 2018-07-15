@@ -5,9 +5,7 @@ import { connect } from 'react-redux'
 const TopBar = () => {
 
     return (
-
         <div class="container">
-            <title> LOGO </title> 
             <nav className="top-nav">
                 <ul>
                     <li>
@@ -28,10 +26,11 @@ const TopBar = () => {
                     <li>
                         <a href="#">Contact</a>
                     </li>
-                    <input type="text" placeholder="SEARCH FOR JOBS BY KEYWORD"></input>
+                    <input type="text" placeholder="SEARCH FOR JOBS BY KEYWORD..."></input>
                 </ul>
             </nav>
         </div>
+      
     
     )
 }
