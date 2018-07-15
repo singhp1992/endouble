@@ -5,11 +5,9 @@ import { connect } from 'react-redux'
 const TopBar = () => {
 
     return (
+
         <div class="container">
-
-            <img src="add image here" alt="logo" class="logo" />
-
-            <nav>
+            <nav className="body-header">
                 <ul>
                     <li>
                         <a href="#">Home</a>
@@ -29,6 +27,7 @@ const TopBar = () => {
                 </ul>
             </nav>
         </div>
+    
     )
 }
 
