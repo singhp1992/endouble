@@ -28,7 +28,7 @@ const TopBar = () => {
                     <li>
                         <a href="#">Contact</a>
                     </li>
-                    <input type="text" placeholder="Search.."></input>
+                    <input type="text" placeholder="SEARCH FOR JOBS BY KEYWORD"></input>
                 </ul>
             </nav>
         </div>
