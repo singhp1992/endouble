@@ -1,17 +1,14 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8">
-        <title>LOGO</title>
-    </head
->
-<body> 
+import React from 'react'
+import { connect } from 'react-redux'
 
-    <header>
+
+const TopBar = () => {
+
+    return (
         <div class="container">
 
-            <img src="add image here" alt="logo" class="logo"/>
-            
+            <img src="add image here" alt="logo" class="logo" />
+
             <nav>
                 <ul>
                     <li>
@@ -32,9 +29,7 @@
                 </ul>
             </nav>
         </div>
+    )
+}
 
-    </header>
-
-
-</body>
-</html>
+export default TopBar

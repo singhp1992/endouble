@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-//import TopBar from './components/TopBar'
+import './components/layout/styles.css'
+import TopBar from './components/layout/TopBar'
+//import './components/layout/topbar.html'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Job Title</h1>
-        </header>
-        <p className="App-intro">
-          info
-        </p>
-        
+      <div>
+        <TopBar />
       </div>
     );
   }

@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    background: black;
+    padding: 0;
+    background:black;
+    size: 20px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-
+    font-weight: 500;
 }
 
 .container {
@@ -11,3 +12,65 @@ body {
     margin: 0 auto;
     
 }
+
+header {
+    background: black;
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.logo {
+    float:left;
+    padding: 10px 0
+} 
+
+nav {
+    float:right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: silver 
+}
+
+nav a:before {
+    content: '';
+    display: block; 
+    height: 3px;
+    background-color: white;
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%
+}
+
