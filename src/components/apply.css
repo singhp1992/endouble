@@ -1,0 +1,10 @@
+.content {
+    /* background-color: grey; */
+    /* width: 300px; */
+    border: 10px solid grey ; 
+    padding-top: 75px;
+    padding-right: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    margin: 0 0 0 0;
+}

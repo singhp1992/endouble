@@ -1,12 +1,13 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
+import './apply.css'
 
 class Apply extends PureComponent {
 
     render() {
 
         return (
-            <div>
+            <div class="content">
             <h1> 
                 RETAIL DEVELOPMENT COORDINATOR
             </h1> 
