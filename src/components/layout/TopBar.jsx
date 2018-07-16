@@ -29,6 +29,7 @@ const TopBar = () => {
                     <input type="text" placeholder="SEARCH FOR JOBS BY KEYWORD..."></input>
                 </ul>
             </nav>
+            
         </div>
       
     
