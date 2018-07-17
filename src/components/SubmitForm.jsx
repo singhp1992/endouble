@@ -21,19 +21,14 @@ class Submit extends PureComponent {
             <input type="text" placeholder="City"></input>
             <input type="text" placeholder="Country"></input>
             <input type="text" placeholder="Zipcode"></input>
-            <br/>
-
             <select>
                 <option value="Male">Male</option>
                 <option value="Male">Female</option>
                 <option value="Male">Prefer not to say</option>
             </select>
-
-          
             <br/>
             Date of Birth: 
             <input type="date" name="bday"></input>
-                    <button type="submit">Submit</button>
             <br/>
             <input type="email" placeholder="Email" name="email"></input>
             </form>
