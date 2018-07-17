@@ -14,19 +14,24 @@ class Submit extends PureComponent {
 
             <h2> Personal Details * </h2>
 
-            <nav>
+            
             <input type="text" placeholder="First Name"></input>
             <input type="text" placeholder="Last Name"></input>
             <br/>
+            <input type="text" placeholder="City"></input>
+            <input type="text" placeholder="Country"></input>
+            <input type="text" placeholder="Zipcode"></input>
+            <br/>
             <input type="checkbox" name="sex" value="male"></input>Male
             <input type="checkbox" name="sex" value="female"></input>Female
-            <input type="checkbox" name="sex" value="female"></input>Prefer not to say
-                   
+            <input type="checkbox" name="sex" value="female"></input>Prefer not to say    
             <br/>
-            Birthday:
+            Date of Birth: 
             <input type="date" name="bday"></input>
                     <input type="submit"></input>
-            </nav>
+            <br/>
+            <input type="email" placeholder="Email" name="email"></input>
+           
             </div>
         )
     }
