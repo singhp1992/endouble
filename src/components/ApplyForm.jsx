@@ -1,12 +1,13 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
+import './apply.css'
 
 class Apply extends PureComponent {
 
     render() {
 
         return (
-            <div>
+            <div class="content">
             <h1> 
                 RETAIL DEVELOPMENT COORDINATOR
             </h1> 
@@ -21,7 +22,6 @@ class Apply extends PureComponent {
             <h2> 
                 Tasks and Responsibilities 
             </h2>
-            <ul>
                 <li>prepare individual country expansion plans together with local country management</li>
                 <li>track, evaluate and report on the developments per market on a weekly basis</li>
                 <li>work on proper execution of the local long term plans and strategic monobrand review when related to relocations, refurbishments and refranchising to a new partner </li>
@@ -35,7 +35,6 @@ class Apply extends PureComponent {
                 <li>assure standard procedures are being followed </li>
                 <li>flag upcoming franchise contract renewals and act accordingly </li>
                 <li>guide and control possible take overs of current franchise operations </li>
-            </ul>
             <h2>
                 Profile
             </h2>
