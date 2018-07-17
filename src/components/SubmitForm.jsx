@@ -7,14 +7,14 @@ class Submit extends PureComponent {
     render() {
 
         return (
-            <div class="form">
+            <div class="submit">
            
 
             <h1> APPLY FOR THE POSITION OF PURCHASING ASSISTANT </h1>
 
             <h2> Personal Details * </h2>
 
-            
+            <form class="form">
             <input type="text" placeholder="First Name"></input>
             <input type="text" placeholder="Last Name"></input>
             <br/>
@@ -31,7 +31,7 @@ class Submit extends PureComponent {
                     <input type="submit"></input>
             <br/>
             <input type="email" placeholder="Email" name="email"></input>
-           
+            </form>
             </div>
         )
     }
