@@ -1,0 +1,20 @@
+.submit {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.form input {
+    width: 300px;
+    height: 50px;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.form select {
+    width: 120px; 
+    height: 30px;
+    margin-left:25px;
+    margin-right:25px;
+}
